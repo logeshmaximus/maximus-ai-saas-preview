@@ -1,1 +1,0 @@
-import{t as e}from"./autocycle.D-2G3Fbp.js";document.querySelectorAll(`[data-em]`).forEach(t=>{let n=t.querySelectorAll(`[data-em-node]`),r=t.querySelectorAll(`[data-em-link]`);e({root:t,count:n.length,duration:2200,onStep:e=>{n.forEach((t,n)=>t.classList.toggle(`is-on`,n===e)),r.forEach((t,n)=>t.classList.toggle(`is-on`,n===e))}})});
